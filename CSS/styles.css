@@ -13,23 +13,17 @@ body
 
 main
 {
-
-  bordeR: 1px solid;
+  /* min-width: 232px; */
+  border-radius: 1rem;
+  
   background-color: var(--clr-primary-dark-blue);
 
   color: var(--clr-neutral-white);
 }
 
-.card__img
-{
-    background: red;
-}
-
 .card__content
 {
   padding: 1.5em;
-
-  border-radius: 1rem;
 }
 
 .card__content > *
@@ -37,10 +31,25 @@ main
     margin: 1em 0;
 }
 
+.card__description
+{
+  font-weight: 200;  
+  color: var(--clr-ttransparent-white);
+}
+
 .record__description
 {
     display: block;
+
+    font-weight: 200;
+    color: var(--clr-transparent-white);
 }
+
+h1,
+h2
+{
+}
+
 
 .card__title, .card__description,
 .record, .record__description
@@ -52,5 +61,11 @@ main
 .card__title
 {
     line-height: 40px;
-    text-align: center;
+}
+
+.record__description
+{
+  font-family: var(--ff-accent);
+
+  color: var(--clr-ttransparent-white);
 }
