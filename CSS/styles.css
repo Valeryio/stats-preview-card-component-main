@@ -1,0 +1,56 @@
+@import "./variables.css";
+@import "./components.css";
+
+body
+{
+  display: flex;
+  height: 100vh;
+  flex-flow: column wrap;
+  justify-content: space-between;
+  align-items: center;
+  font-family: var(--ff-normal);
+}
+
+main
+{
+
+  bordeR: 1px solid;
+  background-color: var(--clr-primary-dark-blue);
+
+  color: var(--clr-neutral-white);
+}
+
+.card__img
+{
+    background: red;
+}
+
+.card__content
+{
+  padding: 1.5em;
+
+  border-radius: 1rem;
+}
+
+.card__content > *
+{
+    margin: 1em 0;
+}
+
+.record__description
+{
+    display: block;
+}
+
+.card__title, .card__description,
+.record, .record__description
+{
+    border: 1px solid;
+    text-align: center;
+}
+
+.card__title
+{
+    line-height: 40px;
+    text-align: center;
+}
