@@ -11,6 +11,8 @@ body
   align-items: center;
   font-family: var(--ff-normal);
 
+  background-color: var(--clr-primary-dark-blue);
+
   color: var(--clr-neutral-white);
 }
 
@@ -23,7 +25,7 @@ body
 main
 {
   min-width: 17rem;
-  margin: 2rem 0;
+  margin: 4rem 0;
   max-width: 1000px;
 
   overflow: hidden;
@@ -80,3 +82,20 @@ main:hover
     display: block;
 }
 
+
+
+
+/***************************************************\
+*         Section of the footer of the card         *
+\***************************************************/
+.attribution
+{ 
+  font-size: 11px;
+  text-align: center; 
+}
+
+.attribution a
+{
+  color: hsl(228, 45%, 44%); 
+  text-decoration: none;
+}
