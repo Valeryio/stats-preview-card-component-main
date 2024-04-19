@@ -61,9 +61,9 @@ To this...
 
 ### Useful resources
 
-- [Example resource 1](https://moderncss.dev/css-only-full-width-responsive-images-2-ways/) - This helped me for learning about images styling with the tag img.
+- [moderncss.dev/css-only-full-width-responsive-images-2-ways](https://moderncss.dev/css-only-full-width-responsive-images-2-ways/) - This helped me for learning about images styling with the tag img.
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/Valeryio)
-- Twitter - [@yourusername](https://twitter.com/DoumFifa56826)
+- Frontend Mentor - [@Valeryio](https://www.frontendmentor.io/profile/Valeryio)
+- Twitter - [@DOUMfifa56826](https://twitter.com/DoumFifa56826)
