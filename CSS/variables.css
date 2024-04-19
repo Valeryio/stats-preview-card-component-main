@@ -14,8 +14,9 @@
     --ff-normal: "Inter", "sans-serif";
     --ff-accent: "Lexend", sans-serif;
 
-    --fw-normal: 400;
     --fw-bold: 700;
+    --fw-normal: 400;
+    --fw-light: 200;
 
     --fs-normal: 15px;
 }

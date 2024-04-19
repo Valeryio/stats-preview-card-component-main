@@ -1,71 +1,82 @@
 @import "./variables.css";
 @import "./components.css";
+@import "./responsive.css";
 
 body
 {
+  padding: 2rem;
+
   display: flex;
-  height: 100vh;
   flex-flow: column wrap;
-  justify-content: space-between;
   align-items: center;
   font-family: var(--ff-normal);
-}
-
-main
-{
-  /* min-width: 232px; */
-  border-radius: 1rem;
-  
-  background-color: var(--clr-primary-dark-blue);
 
   color: var(--clr-neutral-white);
 }
 
+
+
+
+/***************************************************\
+*             Main design of the card               *
+\***************************************************/
+main
+{
+  min-width: 17rem;
+  margin: 2rem 0;
+  max-width: 1000px;
+
+  overflow: hidden;
+  border-radius: 1rem;
+  
+  background-color: var(--clr-primary-desaturated-blue);
+
+  color: var(--clr-neutral-white);
+
+  transition: all 0.3s ease-in;
+}
+
+main:hover
+{
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+
+
+
+
+/***************************************************\
+*        Section of the content of the card         *
+\***************************************************/
+.card__img
+{
+    max-width: 100%;
+}
+
 .card__content
 {
-  padding: 1.5em;
+  padding: 1.5rem;
 }
 
 .card__content > *
 {
-    margin: 1em 0;
+  margin: 1.5rem 0;
+  text-align: center;
 }
 
-.card__description
+.card__title
 {
-  font-weight: 200;  
-  color: var(--clr-ttransparent-white);
+  line-height: 40px;
+}
+
+.card__description,
+.record__description
+{
+  font-weight: var(--fw-light);  
 }
 
 .record__description
 {
     display: block;
-
-    font-weight: 200;
-    color: var(--clr-transparent-white);
 }
 
-h1,
-h2
-{
-}
-
-
-.card__title, .card__description,
-.record, .record__description
-{
-    border: 1px solid;
-    text-align: center;
-}
-
-.card__title
-{
-    line-height: 40px;
-}
-
-.record__description
-{
-  font-family: var(--ff-accent);
-
-  color: var(--clr-ttransparent-white);
-}

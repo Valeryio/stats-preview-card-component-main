@@ -17,25 +17,32 @@
 <body>
 
   <main class="card">
-    <picture class="card__img" >
-      <img src="./images/image-header-mobile.jpg" alt="A card of people working for a business">
+    <picture class="card__img__container">
+      <source srcset="./images/image-header-desktop.jpg" media="(min-width: 376px)"  >
+      <img src="./images/image-header-mobile.jpg" class="card__img" alt="A card of people working for a business">
     </picture>
 
     <div class="card__content">
-      <h1 class="card__title">  Get <strong class="clr-violet">insights</strong> that help your business grow.</h1>
+      <h1 class="card__title">
+        Get <strong class="clr-violet">insights</strong> that help your 
+        business grow.
+      </h1>
+
       <p class="card__description" >
-        Discover the benefits of data analytics and make better decisions regarding revenue, customer 
-        experience, and overall efficiency.
+        Discover the benefits of data analytics and make better decisions 
+        regarding revenue, customer experience, and overall efficiency.
       </p>
   
       <div class="card__record">
         <h2 class="record">10k+</h2>
         <span class="record__description">COMPANIES</span>
       </div>
+
       <div class="record__container">
         <h2 class="record">314</h2>
         <span class="record__description">TEMPLATES</span>
       </div>
+
       <div class="record__container">
         <h2 class="record">12M+</h2>
         <span class="record__description">QUERIES</span>

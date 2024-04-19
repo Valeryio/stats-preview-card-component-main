@@ -1,0 +1,39 @@
+
+@media screen and (min-width: 604px) {
+
+    main
+    {
+      display: flex;
+      flex-direction: row-reverse;
+      justify-content: start;
+    }
+
+    .card__img__container
+    {
+      width: 50%;
+    }
+
+    .card__img 
+    {
+      height: 100%;
+
+      object-fit: cover;
+      object-position: center;
+    }
+
+    .card__content
+    {
+        width: 50%;
+    }
+
+    .card__content
+    {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .card__title, .card__description
+    {
+        grid-column: 1 / 4;
+    }
+}
